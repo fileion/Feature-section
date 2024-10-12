@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 dark:bg-gray-900 dark:text-white;
+}
+.container-section{
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 container mx-auto mt-10 ;
+}
+
+.common-div{
+    @apply flex flex-col gap-2 justify-center items-center shadow-md rounded-2xl p-4 dark:bg-gray-800 ;
+}
+.description-div{
+    @apply flex flex-col gap-2 justify-center items-center;
+}
+.headings{
+    @apply text-xl font-semibold mb-4;
+}
+.description{
+    @apply text-center;
+}
+.figure{
+    @apply flex justify-center rounded-full bg-blue-100 dark:bg-blue-900 dark:text-blue-300 text-blue-600 p-6 mb-4;
+}
