@@ -568,41 +568,41 @@ body {
   }
 }
 
-.container-section {
+.tool-feature-section {
   width: 100%;
 }
 
 @media (min-width: 640px) {
-  .container-section {
+  .tool-feature-section {
     max-width: 640px;
   }
 }
 
 @media (min-width: 768px) {
-  .container-section {
+  .tool-feature-section {
     max-width: 768px;
   }
 }
 
 @media (min-width: 1024px) {
-  .container-section {
+  .tool-feature-section {
     max-width: 1024px;
   }
 }
 
 @media (min-width: 1280px) {
-  .container-section {
+  .tool-feature-section {
     max-width: 1280px;
   }
 }
 
 @media (min-width: 1536px) {
-  .container-section {
+  .tool-feature-section {
     max-width: 1536px;
   }
 }
 
-.container-section {
+.tool-feature-section {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.5rem;
@@ -612,18 +612,18 @@ body {
 }
 
 @media (min-width: 768px) {
-  .container-section {
+  .tool-feature-section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 1024px) {
-  .container-section {
+  .tool-feature-section {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
-.common-div {
+.tool-feature-section .feature {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -637,32 +637,29 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  .common-div {
+  .tool-feature-section .feature {
     --tw-bg-opacity: 1;
     background-color: rgb(31 41 55 / var(--tw-bg-opacity));
   }
 }
 
-.description-div {
+.tool-feature-section .description {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  text-align: center;
 }
 
-.headings {
+.tool-feature-section .headings {
   margin-bottom: 1rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
 }
 
-.description {
-  text-align: center;
-}
-
-.figure {
+.tool-feature-section .figure {
   margin-bottom: 1rem;
   display: flex;
   justify-content: center;
@@ -675,7 +672,7 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  .figure {
+  .tool-feature-section .figure {
     --tw-bg-opacity: 1;
     background-color: rgb(30 58 138 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
